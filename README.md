@@ -9,7 +9,7 @@
     - [Identifying Stations with Longest Average Trip Durations](#identifying-stations-with-longest-average-trip-durations)
     - [Trip Counts per Day of the Week](#trip-counts-per-day-of-the-week)
     - [Ridership Based on Weather Data Queries](#ridership-based-on-weather-data-queries)
-7. [Data Visualization Using Looker](#data-visualization-using-looker)
+7. [Data Visualizations Using Looker](#data-visualizations-using-looker)
 8. [Conclusion and Further Work](#conclusion-and-further-work)
 
 # NYC Citibike Database Design and Analysis Using BigQuery
@@ -119,9 +119,9 @@ In addition to the database design conducted, several queries were developed by 
 ![image](https://github.com/user-attachments/assets/405be956-8be7-4c44-a3f9-3fdeca33eeb1)
 
 **Insights**
-- Identify high-volume routes: The top 3 popular routes start and end at the same station, indicating high cycling activity, particularly in recreational areas like Central Park, suggesting the need to ensure adequate bike availability.
-- Optimize resource allocation: Understanding ridership patterns helps NYC Bike focus on maintaining and expanding popular routes, ensuring stations in high-demand areas have sufficient bicycles available.
-- Support expansion and marketing efforts: Insights into popular routes and rider demographics can inform the addition of new stations and targeted promotions to enhance rider convenience and encourage increased usage.
+- **Identify high-volume routes**: The top 3 popular routes start and end at the same station, indicating high cycling activity, particularly in recreational areas like Central Park, suggesting the need to ensure adequate bike availability.
+- **Optimize resource allocation**: Understanding ridership patterns helps NYC Bike focus on maintaining and expanding popular routes, ensuring stations in high-demand areas have sufficient bicycles available.
+- **Support expansion and marketing efforts**: Insights into popular routes and rider demographics can inform the addition of new stations and targeted promotions to enhance rider convenience and encourage increased usage.
 
 ### Identifying Stations with Longest Average Trip Durations 
 Note that the durations are measured in seconds.
@@ -141,9 +141,9 @@ Note that the durations are measured in seconds.
 ![image](https://github.com/user-attachments/assets/fce2a508-2639-4664-b37f-17ea83dc9319)
 
 **Insights**
-- Identify potential docking imbalances: If stations consistently have long trip durations, it could indicate a one-way trip pattern. This could mean there's a shortage of bikes at the ending station, causing riders to take longer trips to return the bikes. NYC Bike can address this by rebalancing bikes between stations.
-- Improve system planning: Understanding trip patterns can inform future expansion plans. If certain areas show high usage with long trips, NYC Bike could consider adding more stations or expanding service to those areas.
-- Identify recreational areas: Stations with long trip durations could be located near recreational areas like parks or greenways. NYC Bike can use this data to partner with local authorities to improve cycling infrastructure in these areas.
+- **Identify potential docking imbalances**: If stations consistently have long trip durations, it could indicate a one-way trip pattern. This could mean there's a shortage of bikes at the ending station, causing riders to take longer trips to return the bikes. NYC Bike can address this by rebalancing bikes between stations.
+- **Improve system planning**: Understanding trip patterns can inform future expansion plans. If certain areas show high usage with long trips, NYC Bike could consider adding more stations or expanding service to those areas.
+- **Identify recreational areas**: Stations with long trip durations could be located near recreational areas like parks or greenways. NYC Bike can use this data to partner with local authorities to improve cycling infrastructure in these areas.
 
 ### Trip Counts per Day of the Week
 <details>
@@ -185,9 +185,9 @@ Note that the durations are measured in seconds.
 ![image](https://github.com/user-attachments/assets/590cda5b-4661-4dcd-bd86-b3ed31445efe)
 
 **Insights**
-- Optimize Staffing: By understanding ridership patterns, NYC Bike can strategically staff stations based on expected customer volume. This ensures a smooth operation, especially during peak ridership times on weekdays.
-- Schedule Maintenance Wisely: The data allows NYC Bike to schedule maintenance and repairs at stations with lower ridership. This minimizes service disruptions for riders. Sun & Mon, with their lower usage, might be a good time for such activities.
-- Target Marketing Efforts: NYC Bike can target marketing campaigns towards specific weekdays. For example, they could offer promotions or discounts to encourage ridership on Sun & Mon when usage is lower.
+- **Optimize Staffing**: By understanding ridership patterns, NYC Bike can strategically staff stations based on expected customer volume. This ensures a smooth operation, especially during peak ridership times on weekdays.
+- **Schedule Maintenance Wisely**: The data allows NYC Bike to schedule maintenance and repairs at stations with lower ridership. This minimizes service disruptions for riders. Sun & Mon, with their lower usage, might be a good time for such activities.
+- **Target Marketing Efforts**: NYC Bike can target marketing campaigns towards specific weekdays. For example, they could offer promotions or discounts to encourage ridership on Sun & Mon when usage is lower.
 
 ### Ridership Based on Weather Data Queries
 The queries integrate NYC government's weather dataset available here for public access: https://www.ncdc.noaa.gov/cdo-web/datasets/GHCND/stations/GHCND:USW00094728/detail
@@ -236,11 +236,11 @@ The NYC weather dataset contains over 124 columns of weather data, from variable
 ![image](https://github.com/user-attachments/assets/d5d0b6e1-96ef-4c9c-9801-2c24040f74c9)
 
 **Insights**
-- Identify weather-affected stations: Analyzed stations where ridership is most impacted by adverse weather conditions, revealing areas with reduced activity during rain or snow.
-- Address infrastructure needs: Stations with below-average ridership in bad weather signal the need for improved, weather-proof infrastructure to maintain service levels.
-- Optimize bike availability: Stations with high ridership during ideal weather highlight the importance of ensuring sufficient bike availability during peak conditions.
+- **Identify weather-affected stations**: Analyzed stations where ridership is most impacted by adverse weather conditions, revealing areas with reduced activity during rain or snow.
+- **Address infrastructure needs**: Stations with below-average ridership in bad weather signal the need for improved, weather-proof infrastructure to maintain service levels.
+- **Optimize bike availability**: Stations with high ridership during ideal weather highlight the importance of ensuring sufficient bike availability during peak conditions.
 
-# Data Visualization Using Looker
+# Data Visualizations Using Looker
 
 
 # Conclusion and Further Work
