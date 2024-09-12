@@ -241,7 +241,8 @@ The NYC weather dataset contains over 124 columns of weather data, from variable
 - **Optimize bike availability**: Stations with high ridership during ideal weather highlight the importance of ensuring sufficient bike availability during peak conditions.
 
 # Data Visualizations Using Looker
-
+### Ridership Based on Weather Conditions Dashboard
+![image](https://github.com/user-attachments/assets/000712be-66b5-43ab-97ab-a4f1cb845377)
 
 # Conclusion and Further Work
 This project demonstrates a high-level application of database management systems design, data analysis through BigQuery SQL queries, and data visualization using Looker. All of these concepts combined produced valuable insights to improve operational efficency for NYC Citibike, such as identifying target stations with resource deficiencies or identifying marketing oppportunities based on route usage.
