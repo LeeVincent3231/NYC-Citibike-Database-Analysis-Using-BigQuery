@@ -248,3 +248,4 @@ This project demonstrates a high-level application of database management system
 
 Further research could implement more datasets on top of weather data. For example, events data is another critical factor in assessing ridership, as certain city events can encourage more ridership. 
 
+Thank you for reading!
