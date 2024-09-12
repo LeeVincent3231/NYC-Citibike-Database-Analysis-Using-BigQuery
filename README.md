@@ -4,7 +4,7 @@
 3. [Data Source](#data-source)
 4. [Dataset Schemas](#dataset-schemas)
 5. [Database Design](#database-design)
-6. [Insightful Queries Providing Data-Driven Operational Decisions to Improve Operational Efficiency](#insightful-queries-providing-data-driven-operational-decisions-to-improve-operational-efficiency)
+6. [Insightful SQL Queries Driving Operational Insights](#insightful-sql-queries-driving-operational-insights)
     - [Identifying Most Frequent Routes](#identifying-most-frequent-routes)
     - [Identifying Stations with Longest Average Trip Durations](#identifying-stations-with-longest-average-trip-durations)
     - [Trip Counts per Day of the Week](#trip-counts-per-day-of-the-week)
@@ -18,6 +18,7 @@ This project applies database management and design principles along with develo
 # Tools and Frameworks
 - **Google BigQuery** for developing and storing queries on the datasets
 - **SQL** for creating queries
+- **Looker** for creating visualizations based on query results
 - **ERD Diagrams** and **Database Relational Tables** for illustrating the data model
 
 # Data Source
@@ -84,7 +85,7 @@ Below is a theoretical database structure design where hypothetical entities are
 ### Relational Database Tables
 <img src="https://github.com/user-attachments/assets/3a92dee3-c716-49c9-a305-5c04dd21c557" width=700>
 
-# Insightful Queries Providing Data-Driven Operational Decisions to Improve Operational Efficency 
+# Insightful SQL Queries Driving Operational Insights
 In addition to the database design conducted, several queries were developed by querying the dataset through Google BigQuery studio. Below are the insights gained from the queries.
 
 ### Identifying Most Frequent Routes 
@@ -116,7 +117,8 @@ In addition to the database design conducted, several queries were developed by 
 - Optimize resource allocation: Understanding ridership patterns helps NYC Bike focus on maintaining and expanding popular routes, ensuring stations in high-demand areas have sufficient bicycles available.
 - Support expansion and marketing efforts: Insights into popular routes and rider demographics can inform the addition of new stations and targeted promotions to enhance rider convenience and encourage increased usage.
 
-### Identifying Stations with Longest Average Trip Durations (in seconds)
+### Identifying Stations with Longest Average Trip Durations 
+Note that the durations are measured in seconds.
 <details>
   <summary>View Query</summary>
   
